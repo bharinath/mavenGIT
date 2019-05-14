@@ -184,16 +184,15 @@
             <layout>default</layout>
         </repository>
     </repositories>
-    <pluginRepositories>
+          <pluginRepositories>
         <pluginRepository>
-            <id>mulesoft-release</id>
-            <name>mulesoft release repository</name>
-            <layout>default</layout>
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases-ee/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
+          <id>mule-public-plugin</id>
+          <name>MuleSoft Public Plugin</name>
+          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+           <snapshots>            
+               <enabled>false</enabled>      
+           </snapshots>
         </pluginRepository>
-    </pluginRepositories>
+      </pluginRepositories>
 
 </project>
