@@ -180,7 +180,7 @@
         <repository> 
             <id>nexus-ee</id> 
             <name>nexus-ee</name> 
-            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url> 
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
             <layout>default</layout> 
             <releases> 
             <enabled>true</enabled>     
