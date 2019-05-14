@@ -183,8 +183,11 @@
             <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url> 
             <layout>default</layout> 
             <releases> 
-            <enabled>true</enabled> 
+            <enabled>true</enabled>     
             </releases> 
+	     <snapshots>            
+               <enabled>false</enabled>      
+             </snapshots>
         </repository>
         <repository>
             <id>mulesoft-releases</id>
@@ -198,9 +201,6 @@
           <id>mule-public-plugin</id>
           <name>MuleSoft Public Plugin</name>
           <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
-           <snapshots>            
-               <enabled>false</enabled>      
-           </snapshots>
         </pluginRepository>
       </pluginRepositories>
 
